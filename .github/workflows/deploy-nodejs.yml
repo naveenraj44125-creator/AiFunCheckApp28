@@ -5,6 +5,7 @@ on:
     branches: [ main, master ]
     paths:
       - '**/*.js'
+      - '**/*.ts'
       - '**/*.json'
       - '**/*.html'
       - '**/*.css'
@@ -14,6 +15,7 @@ on:
     branches: [ main, master ]
     paths:
       - '**/*.js'
+      - '**/*.ts'
       - '**/*.json'
       - '**/*.html'
       - '**/*.css'
