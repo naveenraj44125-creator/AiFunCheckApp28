@@ -13,14 +13,7 @@ lightsail:
   
   # Operating system blueprint configuration (optional)
   # If not specified, defaults to ubuntu_22_04
-  blueprint_id: "ubuntu_24_04"
-
-  # Lightsail bucket configuration
-  bucket:
-    enabled: true
-    name: "aifuncheckapp28bucket"
-    access_level: "read_write"
-    bundle_id: "medium_1_0"
+  blueprint_id: "ubuntu_22_04"
 
 application:
   name: aifuncheckapp28
@@ -49,8 +42,6 @@ application:
     # Node.js specific
     NODE_ENV: production
     PORT: "3000"
-    BUCKET_NAME: aifuncheckapp28bucket
-    AWS_REGION: us-east-1
 
 dependencies:
   # Database Dependencies
