@@ -183,7 +183,7 @@ github_actions:
 monitoring:
   health_check:
     endpoint: "/api/health"
-    expected_content: "Node.js"
+    expected_content: "ok"
     port: 3000  # Node.js applications run on port 3000
     max_attempts: 15
     wait_between_attempts: 20
